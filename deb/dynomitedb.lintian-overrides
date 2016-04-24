@@ -1,0 +1,10 @@
+# DynomiteDB meta package
+# Ignore excessive lintian warnings
+
+dynomitedb: dir-in-usr-local usr/local/dynomitedb/
+dynomitedb: dir-in-usr-local usr/local/dynomitedb/dynomitedb/
+dynomitedb: file-in-usr-local usr/local/dynomitedb/dynomitedb/LICENSE
+dynomitedb: file-in-unusual-dir usr/local/dynomitedb/dynomitedb/LICENSE
+dynomitedb: extra-license-file usr/local/dynomitedb/dynomitedb/LICENSE
+dynomitedb: file-in-usr-local usr/local/dynomitedb/dynomitedb/README.md
+dynomitedb: file-in-unusual-dir usr/local/dynomitedb/dynomitedb/README.md
