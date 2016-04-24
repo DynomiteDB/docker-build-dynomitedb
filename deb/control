@@ -5,7 +5,7 @@ Priority: extra
 Licence: Apache 2.0
 Vendor: DynomiteDB
 Architecture: amd64
-Depends: libc6 (>= 2.14)
+Depends: libc6 (>= 2.14), dynomitedb-dynomite (>= 0.0.1), dynomitedb-redis (>= 0.0.1), dynomitedb-backends (>= 0.0.1)
 Maintainer: Akbar S. Ahmed <akbar@dynomitedb.com>
 Homepage: http://www.dynomitedb.com
 Description: Turn single server databases into distributed databases
